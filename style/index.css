@@ -1,0 +1,141 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/* for mobile divice */
+@media (max-width:600px) {
+  .container{
+    color: red;
+    flex-direction: column;
+  }
+}
+@media (max-width:600px) {
+  .collection{
+    grid-template-columns: 1fr ,1fr ;
+    background-color: red;
+    margin: 0px;
+  }
+}
+@media (max-width:600px) {
+  .container-2{
+    flex-direction: column;
+    color: red;
+  }
+}
+
+/* for tablet */
+
+@media (max-width:992px) {
+  .container{
+    color: red;
+  }
+}
+@media (max-width:992px) {
+  .container-2{
+    flex-direction: column;
+    color: red;
+  }
+}
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #AAAAAA;
+  width: 100%;
+  
+}
+main{
+  background-color: white;
+}
+.container{
+  display: flex;
+  align-items: center;
+}
+.text-part{
+  padding: 80px;
+  margin-right: 243px;
+}
+h3{
+  margin-top: 10px;
+}
+.text-part h1{
+  font-size: 50px;
+}
+
+.camera img{
+  height: 420px;
+  width: 500px;
+}
+.container:hover .camera img{
+  transform: scale(1.0) rotate(-10deg);
+  transition: transform 5s ease-in-out;
+}
+.button{
+  text-decoration: none;
+  color:white;
+  padding: 9px 40px;
+  background-color:orchid;
+  border-radius: 50px;
+}
+hr{
+  margin-top: 70px;
+}
+
+/* collection part */
+#popular{
+  text-align: center;
+}
+.populer-collections{
+  display:grid;
+  grid-template-columns: repeat(3 , 1fr);
+  justify-content: center;
+  margin-left:70px;
+  margin-right:70px;
+  padding: 20px;
+  grid-row-gap:20px;
+  grid-column-gap:50px;
+
+}
+
+.collection{
+  box-shadow: 10px 25px 5px whitesmoke;
+  border-radius: 10px;
+}
+.fa-star.filled{
+  color: #FFC014;
+}
+.fa-star.empty{
+  color: #AEAEAE;;
+}
+#see-more{
+  color: red;
+  margin-left: 1260px;
+}
+/* guide part  */
+.container-2{
+  display: flex;
+  margin-left: 70px;
+}
+.container-2 h1{
+  color: chocolate;
+  font-size:40px;
+}
+.guide-line img{
+  height: 370px;
+  width: 600px;
+  
+}
+a{
+  text-decoration: none;
+}
+
+/* footer part */
+.footer-section{
+  height: 200px;
+  width: 100%;
+  background-color: rgb(8, 8, 8);
+  color:white;
+  text-align: center; 
+}
+
+
